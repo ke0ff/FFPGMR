@@ -1,18 +1,21 @@
 # FFPGMR
 EPROM/FLASH/EEPROM Programmer, MK-II<br>
-General DVT/DEBUG IN PROGRESS, 8/25/2024<br>
-This is a rehash/revival of my original (circa 1990) EPROM programmer to allow access to the 27011 and 27513 EPROMS that ACC uses in their repeater controllers.  The current drive is to read the EPROMS, and the 28C64 EEPROM and program the 28C64 and 28F101 FLASH devices.
+Final DVT/DEBUG IN PROGRESS, 4/19/2026<br>
+This is a rehash/revival of my original (circa 1990) EPROM programmer to allow access to the 27011 and 27513 EPROMS that ACC uses in their repeater controllers.  The original goal was to read the EPROMS, and read/pgm 28C64 EEPROM and 28F101 FLASH devices.
 
-Project now supports EPROM read and program for several devices.<br>
-EPROMS: 27C513, 27C011, 27C64, 27C256 - 27C010<br>
+The FFPGMR now supports EPROM read and program for several devices.<br>
+EPROMS: 27C513, 27C011, 27C64, 27C256 - 27C040<br>
 FLASH: 28F256, 28F512, 28F101, 28F010, 28F020, 29F040<br>
 EEPROM: 28C64<br>
 NVRAM: 11C68, 11C88<br>
-Smartwatch: DS1216E version (DS1216C planned also)<br>
+Smartwatch: DS1216E version<br>
 Autoselect mode supports all but EEPROMs/NVRAMs<br>
+EPROM algorithms fixed from when they got broken (who knew???)<br>
+Verify command fixed/re-worked -- addresses SRAM synch problems, now allows voltage margins on EPROM verify<br>
+Adding code to support limited GAL/PAL programming/de-programming activities. Autoselect mode used to identify GAL prog-adapter<br>
 
-Basic features are complete.  Some UI changes needed (such as, turning off DUT power between command operations).
+Most features are complete.  Other than GAL/PAL and EPROM algorithm completion, no activities are planned.
 
-* HW = Schematics/parts lists (no PCB, none planned at this time)
+* HW = Schematics/parts lists (no PCB, not planned at this time)
 * SW = TIVA CCS6 source project
 * PHOTO = project images
