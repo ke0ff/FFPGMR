@@ -1,0 +1,1 @@
+This is an Ersatz Tiva LaunchPad design to fill the price/availability gap that can now exist with the commercial LP boards.  The design requires an external debug interface, and has no MCU USB connection.  It uses an Amazon COTS USB-COM port to provide 5V and a serial connection to MCU UART0.
