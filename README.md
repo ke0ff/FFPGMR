@@ -18,4 +18,5 @@ Most features are complete.  Other than GAL/PAL and EPROM algorithm completion, 
 
 * HW = Schematics/parts lists (no PCB, not planned at this time)
 * SW = TIVA CCS6 source project
-* PHOTO = project images
+* Photo = project images
+* ErsatzTiva = Tiva LaunchPad clone design/FAB files
