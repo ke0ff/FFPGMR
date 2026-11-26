@@ -16,7 +16,7 @@ Adding code to support limited GAL/PAL programming/de-programming activities. Au
 
 Most features are complete.  Other than GAL/PAL and EPROM algorithm completion, no activities are planned.
 
-* HW = Schematics/parts lists (no PCB, not planned at this time)
+* HW = Schematics/parts lists (PCB, -002, has now been added)
 * SW = TIVA CCS6 source project
 * Photo = project images
 * ErsatzTiva = Tiva LaunchPad clone design/FAB files
